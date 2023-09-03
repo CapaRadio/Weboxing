@@ -27,15 +27,25 @@ body{
 
 /* Début du main */
 
+/* .filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .filter h1{
     color: white;
     padding-top: 15rem;
     font-size: 5rem;
+    text-align: center;
+    
 }
 
 .filter p{
     color: white;
     margin-top: 5rem;
+    text-align: center;
+   
 }
 
 .login-button{
