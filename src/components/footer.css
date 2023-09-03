@@ -1,9 +1,6 @@
-.footer{
-    background-color: black;   
-    
-}
-
-.footer p{
+.footer {
+    width: 100%;
+    background-color: black;
     color: white;
-    text-align: center;
+    padding: 1.8rem;
 }

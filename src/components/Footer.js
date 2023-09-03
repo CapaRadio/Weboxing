@@ -1,13 +1,11 @@
-import '../components/footer.css';
+import "./Footer.css";
 
-
-function Footer(){
-    return(
-        <div className='footer'>
-            <p>Copyright © 2023 || All Right Reserved</p>
-        </div>
-    )
+function Footer(props) {
+    return (<>
+    <footer className={props.cName}>
+        <h4>{props.text}</h4>
+    </footer>
+    </>)
 }
-
 
 export default Footer;

@@ -1,21 +1,43 @@
-import './navbar.css';
+import './Navbar.css';
+import { Component } from 'react';
+import { Link } from "react-router-dom";
+// import { Icon } from '@iconify/react';
+import flagThin from '@iconify/icons-ph/flag-thin';
+import { MenuItem } from './MenuItem';
 
-function Navbar(){
-    return(
-        <div className="navbar">
-            <div className="logo">
-                <a href="../route/Accueil.js">Weboxing</a>
-            </div>
-            <nav>
-                <a href="../route/Accueil.js">Accueil</a>
-                <a href="/">Services</a>
-                <a href="/">Boutique</a>
-                <a href="/">Aides</a>
-                <a href="/">Profil</a>
+class Navbar extends Component {
+    // state
 
+    state = { clicked: false };
+    handleClick = () =>{
+        this.setState({ clicked: !this.state.clicked }) 
+    }
+    // affichage
+    render(){
+        return (
+            <nav className="NavbarItems">
+                <h1 className="navbar-logo" >Weboxing</h1>
+
+                <div className='menu-icons' onClick={this.handleClick}>
+                    <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
+                </div>
+
+                <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+                    { MenuItem.map((item, index) => {
+                        return (
+                            <li key={index}>
+                                <Link className={item.cName} to={item.url}>
+                                <i className={item.icon} icon={flagThin} ></i> 
+                                {item.title}{item.text}
+                                </Link>
+                            </li>
+                        )
+                    })}
+                    <button></button>
+                </ul>
             </nav>
-        </div>
-    )
+        )
+    }
 }
 
 export default Navbar;
