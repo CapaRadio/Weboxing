@@ -22,6 +22,7 @@
 .hero2-text {
     width: 50%;
     background-color: black;
+    background-image: url(../assets/Boxing9.jpg);
 }
 
 .hero2-text h1 {
@@ -29,6 +30,7 @@
     font-size: 2rem;
     font-weight: 800;
     color: red;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero2-text p {
@@ -37,6 +39,7 @@
     font-size: 1.1rem;
     color: white;
     padding: 0.5rem 0 2rem 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 790px) {

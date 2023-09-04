@@ -1,8 +1,8 @@
-import './Navbar.css';
+import './navbar.css';
 import { Component } from 'react';
 import { Link } from "react-router-dom";
 // import { Icon } from '@iconify/react';
-import flagThin from '@iconify/icons-ph/flag-thin';
+// import flagThin from '@iconify/icons-ph/flag-thin';
 import { MenuItem } from './MenuItem';
 
 class Navbar extends Component {
@@ -27,7 +27,7 @@ class Navbar extends Component {
                         return (
                             <li key={index}>
                                 <Link className={item.cName} to={item.url}>
-                                <i className={item.icon} icon={flagThin} ></i> 
+                                {/* <i className={item.icon} icon={flagThin} ></i>  */}
                                 {item.title}{item.text}
                                 </Link>
                             </li>

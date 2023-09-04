@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 // Pages
 import Hero from "../components/hero";
 import Hero2 from "../components/hero2";
 import Hero3 from "../components/Hero3";
 import Hero4 from "../components/Hero4";
 import Hero12 from "../components/hero12";
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 
 // Images
 import homeImg from "../assets/1.png";

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +27,7 @@
 .hero3-text {
     width: 50%;
     background-color: #888484bb;
+    background-image: url(../assets/boxing8.jfif);
 }
 
 .hero3-text h1 {
@@ -32,6 +35,7 @@
     font-size: 2rem;
     font-weight: 800;
     color: red;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero3-text p {
@@ -40,6 +44,7 @@
     font-size: 1.1rem;
     color: white;
     padding: 0.5rem 0 2rem 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 790px) {

@@ -2,7 +2,7 @@
 import Hero from "../components/hero";
 import Hero4 from "../components/Hero4";
 import Hero12 from "../components/hero12";
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 
 // Images
 import homeImg from "../assets/1.png";

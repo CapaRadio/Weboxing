@@ -1,11 +1,11 @@
 import React from 'react';
 import '../companier/panier.css';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import Hero from '../components/hero';
 
 // Images
 import productImg from "../assets/7.png";
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import Buttonsc from '../componentslp/Buttonsc';
 
 function Panier() {

@@ -1,9 +1,9 @@
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import Hero from "../components/hero";
 import productImg from "../assets/7.png";
 import Compns from '../componentserv/compns';
 import Reservation from '../componentserv/reservation';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 
 
 function Service() {

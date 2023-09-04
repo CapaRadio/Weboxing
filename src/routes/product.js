@@ -1,7 +1,7 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import productImg from "../assets/7.png";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Product12 from "../componentsp/product12";
 import "../componentsp/Banner.css";
 import ogiImg from "../assets/8.png";
@@ -23,7 +23,7 @@ function product () {
         cName="banner"
         text="Nouveauté : Réserver dès maintenant 1h de séance de coaching personnalisé avec nos experts en Boxe !"/>
         <Product12
-        title="Bonjour Alassane"
+        title="Bonjour Dario"
         cName3="Img-1"
         ogImg={ogiImg}/>
         <Footer

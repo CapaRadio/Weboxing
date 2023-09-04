@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .unun {
     height: auto;
     margin-top: -2%;
@@ -41,8 +43,9 @@
 }
 
 .lechant h1 {
-    color: brown;
+    color: black;
     font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -67,17 +70,20 @@ section {
     height: 35vh;
     background-color: #00000070;
     padding: 10%;
+    border-radius: 2rem;
 }
 
 .image_box img {
     width: 100%;
     height: 25vh;
+    
 
 }
 
 .details {
     margin-top: 5%;
-    background-color: #a52a2a;
+    background-color: #885c5c;
+    border-radius: 1rem;
 }
 
 .details p:nth-child(1) {

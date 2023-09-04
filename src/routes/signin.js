@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import '../css-log-reg/log.css';
 import img from '../assets/venum.svg';
 import img2 from '../assets/ufc.webp';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 

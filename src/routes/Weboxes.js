@@ -1,7 +1,7 @@
 // COMPONENTS
 import Product from './product';
 import Service from './service';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import '../componentsp/producte.css';
 import Hero from "../components/hero";
 // IMAGES

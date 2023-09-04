@@ -6,7 +6,7 @@
   nav {
     width: 100%;
     height: 60px;
-    background-color: red;
+    background-color: black;
   }
   
   .nav_box {
@@ -20,7 +20,7 @@
   .my_shop {
     font-size: 1.5rem;
     font-weight: bold;
-    color: black;
+    color: white;
     cursor: pointer;
   }
   .cart {
@@ -28,7 +28,7 @@
   }
   .cart span:nth-child(1) {
     font-size: 2rem;
-    color: black;
+    color: white;
   }
   .cart span:nth-child(2) {
     padding: 0 3px;
